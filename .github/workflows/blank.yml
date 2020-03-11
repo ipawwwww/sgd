@@ -29,13 +29,8 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Run a multi-line script
       run: |
-        echo ls -al /tmp
-        ls -al /tmp
-        echo "SSS" > /tmp/file1
-        echo df
-        df
-        echo df /tmp
-        df /tmp
-        cat /tmp/file1
-        cat /etc/fstab
-        cat /etc/mtab
+        df -h
+        wget https://github.com/telegramdesktop/tdesktop/releases/download/v1.9.19/tsetup.1.9.19.beta.dmg
+        df -h
+        wget https://github.com/telegramdesktop/tdesktop/releases/download/v1.9.19/tsetup32.1.9.19.beta.tar.xz
+        df -h
