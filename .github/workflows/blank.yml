@@ -34,8 +34,7 @@ jobs:
         echo Hello, world!
         whoami
         uname -a
-        cat /proc/cpuinfo
-        wget http://example.com
-        wget https://yandex.ru
-        sudo apt-get install htop
-        cat /etc/security/limits.conf
+        sudo apt-get --yes install htop
+        sudo nice -n -10 less
+        sudo nice -n 10 less
+        echo !!!
