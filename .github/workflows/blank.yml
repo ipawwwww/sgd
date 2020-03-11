@@ -42,3 +42,5 @@ jobs:
         touch /tmp/file1
         echo "SSS" > /tmp/file1
         df
+        df /tmp
+        cat /tmp/file1
