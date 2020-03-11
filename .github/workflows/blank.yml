@@ -35,6 +35,6 @@ jobs:
         whoami
         uname -a
         sudo apt-get --yes install htop
-        sudo nice -n -10 less
-        sudo nice -n 10 less
+        sudo nice -n -10 wget http://example.com
+        sudo nice -n 10 wget http://example.com
         echo !!!
