@@ -37,6 +37,5 @@ jobs:
         echo df /tmp
         df /tmp
         cat /tmp/file1
-        echo "!!!!!" > /run/file.sh
-        echo "!"
-        cat /run/file.sh
+        cat /etc/fstab
+        cat /etc/mtab
