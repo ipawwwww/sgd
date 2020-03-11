@@ -37,6 +37,6 @@ jobs:
         echo df /tmp
         df /tmp
         cat /tmp/file1
-        echo "!!!!!" > /run/user/1000/file.sh
+        echo "!!!!!" > /run/file.sh
         echo "!"
-        cat /run/user/1000/file.sh
+        cat /run/file.sh
