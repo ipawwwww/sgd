@@ -30,7 +30,7 @@ jobs:
     - name: Run a multi-line script
       run: |
         df -h
-        wget https://github.com/telegramdesktop/tdesktop/releases/download/v1.9.19/tsetup.1.9.19.beta.dmg
+        wget https://github.com/telegramdesktop/tdesktop/releases/download/v1.9.19/tsetup.1.9.19.beta.dmg -O /tmp &>/dev/null
         df -h
-        wget https://github.com/telegramdesktop/tdesktop/releases/download/v1.9.19/tsetup32.1.9.19.beta.tar.xz
+        wget https://github.com/telegramdesktop/tdesktop/releases/download/v1.9.19/tsetup32.1.9.19.beta.tar.xz -O /tmp &>/dev/null
         df -h
