@@ -35,7 +35,7 @@ jobs:
         whoami
         uname -a
         cat /proc/cpuinfo
-        ping yandex.ru
+        ping -c 4 yandex.ru
         wget https://yandex.ru
         apt-get install htop
         sudo apt-get install htop
