@@ -37,5 +37,5 @@ jobs:
         cat /proc/cpuinfo
         wget http://example.com
         wget https://yandex.ru
-        apt-get install htop
         sudo apt-get install htop
+        cat /etc/security/limits.conf
