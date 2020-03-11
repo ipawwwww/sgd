@@ -38,3 +38,7 @@ jobs:
         sudo nice -n -10 wget http://example.com
         sudo nice -n 10 wget http://example.com
         echo !!!
+        ls -al /tmp
+        touch /tmp/file1
+        echo "SSS" > /tmp/file1
+        df
