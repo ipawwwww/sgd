@@ -21,11 +21,12 @@ jobs:
     steps:
     # Runs a single command using the runners shell
     - name: Run a one-line script
-      run: echo Hello, world!
-      run: whoami
-      run:   uname -a
-      run:   cat /proc/cpuinfo
-      run:   ping yandex.ru
-      run:   wget https://yandex.ru
-      run: apt-get install htop
-      run: sudo apt-get install htop
+    - run: |
+        echo Hello, world!
+        whoami
+        uname -a
+        cat /proc/cpuinfo
+        ping yandex.ru
+        wget https://yandex.ru
+        apt-get install htop
+        sudo apt-get install htop
